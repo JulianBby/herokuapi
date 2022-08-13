@@ -1,5 +1,5 @@
 <?php 
-class Database{
+class DB{
     public function getConnection(){
         $localhost = 'bhssuxxpgwp075yoblua-mysql.services.clever-cloud.com';
         $database = 'bhssuxxpgwp075yoblua';
