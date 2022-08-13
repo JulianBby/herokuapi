@@ -8,7 +8,7 @@ class crudUsuario{
 
     //insertar los datos del usuario
     public function insertar($usuario){
-        $db=DB::conectar();
+        $db=DB::getConnection();
         $insert=$db->prepare('INSERT INTO USUARIOS VALUES(NULL, :nombre, :numeroDoc, :correo, :clave)');
         $insert->bindValue('nombre', $usuario->getNombre());
         $insert->bindValue('numeroDoc', $usuario->getNum());
@@ -21,7 +21,7 @@ class crudUsuario{
 
     //obtiene el usuario para el login
     public function obtenerUsuario($correo, $clave){
-        $db=DB::conectar();
+        $db=DB::getConnection();
         //$select=$db->prepare("SELECT * FROM USUARIOS WHERE nombre='$nombre'");//AND clave=:clave //primero es el campo de la tabla, el segundo es el del formulario ":" valide que sea el mismo
         $select=$db->prepare('SELECT * FROM USUARIOS WHERE correo=:correo');
         $select->bindValue('correo', $correo);
@@ -42,7 +42,7 @@ class crudUsuario{
 
     //busca el nombre del usuario si existe
     public function buscarUsuario($numeroDoc){
-        $db=DB::conectar();
+        $db=DB::getConnection();
         //$select=$db->prepare('SELECT * FROM USUARIOS WHERE nombre=:nombre');
         $select=$db->prepare('SELECT * FROM USUARIOS WHERE numeroDoc=:numeroDoc');
         $select->bindValue('numeroDoc', $numeroDoc);

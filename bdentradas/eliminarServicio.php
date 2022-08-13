@@ -2,7 +2,7 @@
     eliminarServicio($_GET['idEntrada']);
 
     function eliminarServicio($idEntrada){
-        include "conexion.php";
+        include "conexionOn.php";
         $sentencia = "DELETE FROM entradas WHERE idEntrada='".$idEntrada."' ";
         $conexion->query($sentencia) or die ("Error al eliminar".mysqli_error($conexion));
     }

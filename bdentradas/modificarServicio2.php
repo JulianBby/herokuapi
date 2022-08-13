@@ -3,7 +3,7 @@
     modificarServicio($_POST['idEntrada'], $_POST['nombreCliente'], $_POST['documentoCliente'], $_POST['tipoPrenda'], $_POST['servicio'], $_POST['precio'],$_POST['detalles'],$_POST['fechaEntrada']);
 
     function modificarServicio($idEntrada,$nombreCliente, $documentoCliente, $tipoPrenda, $servicio, $precio, $detalles, $fechaEntrada){
-        include "conexion.php";
+        include "conexionOn.php";
         $sentencia1 = "UPDATE entradas SET idEntrada='".$idEntrada."', nombreCliente='".$nombreCliente."', 
         documentoCliente='".$documentoCliente."', tipoDePrenda='".$tipoPrenda."', servicio='".$servicio."',
         precio='".$precio."', detalles='".$detalles."', fechaEntrada='".$fechaEntrada."' WHERE idEntrada='".$idEntrada."' ";

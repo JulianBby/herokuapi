@@ -2,7 +2,7 @@
     $consulta = consultaProducto($_GET['idEntrada']);
 
     function consultaProducto($idEntrada){
-        include "conexion.php";
+        include "conexionOn.php";
         $sentencia = "SELECT * FROM entradas WHERE idEntrada='".$idEntrada."' ";
         $resultado = $conexion->query($sentencia) or die ("Error al consultar el producto".mysqli_error($conexion));
         $fila = $resultado->fetch_assoc();
