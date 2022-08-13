@@ -1,0 +1,32 @@
+.form-register{
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    margin:auto;
+    margin-top: 200px;
+    border: black 2px solid;
+    border-radius: 8px;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.form-register .controls{
+    width: 95%;
+    background-color: white;  
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.fcc-btn{
+    border-radius: 5px;
+    background-color: rgb(4, 50, 97);
+    color: white;
+    padding: 15px 25px;
+    box-shadow: 0 0 5px;
+}
+
+

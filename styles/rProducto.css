@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin-left: 90px;
+}
+
+.registro{
+    width: 900px;
+    height: 480px;
+    background: rgb(199, 198, 198);
+    margin: auto;
+    margin-top: 200px;
+    border: 2px solid black;
+    border-radius: 14px;
+    box-shadow: 7px 7px 35px;
+}
+.pal{
+    position: relative;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 2px solid black;
+    
+}
+.nombre{
+    position: relative;
+    width: 270px;
+    height: 30px;
+    margin: auto;
+    margin-left: 21px;
+    margin-bottom: 20px ;   
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.doc{
+    position: relative;
+    width: 270px;
+    height: 30px;
+    margin: auto;
+    margin-left: 21px;
+    margin-bottom: 20px ;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.prenda{
+    position: relative;
+    width: 270px;
+    height: 30px;
+    margin: auto;
+    margin-left: 21px;
+    margin-bottom: 20px ;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.srv{
+    position: relative;
+    width: 270px;
+    height: 30px;
+    margin: auto;
+    margin-left: 21px;
+    margin-bottom: 20px ;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.detalle{
+    position: relative;
+    width: 480px;
+    height: 30px;
+    margin: auto;
+    margin-left: 21px;
+    margin-bottom: 20px ;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.fecha{
+    position: relative;
+    width: 270px;
+    height: 30px;
+    margin: auto;
+    margin-left: 315px;
+    margin-bottom: 20px ;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.boton{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-left: 390px;
+    box-shadow: 1px 1px 4px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.rempleado{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-left: 390px;
+    box-shadow: 1px 1px 4px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

@@ -1,0 +1,45 @@
+.tablaEntradas{
+    border: 2px black solid;
+    position: absolute;
+    width: 1150px;
+    left: 20%;
+    top: 25%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+    ;
+}
+thead{
+    background-color: red;
+    border-bottom: solid 5px green;
+    color: white;
+}
+
+.boton_nuevo{
+    position: absolute;
+    left: 20%;
+    top: 18%;
+}
+
+.btn-nuevo, .btn-modificar, .btn-eliminar, .btn-entregar{
+    background-color: blue;
+    border: none;
+    color: #ffffffb2;
+    padding: 15px 32px;
+    cursor: pointer;
+}
+
+.btn-nuevo:hover, .btn-modificar:hover, .btn-eliminar:hover, .btn-entregar:hover {
+    color: white;
+}
+
+.contenido_tabla{
+    text-align: center;
+}
