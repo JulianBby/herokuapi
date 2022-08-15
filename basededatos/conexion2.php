@@ -8,9 +8,9 @@ class DB{
         $user = 'un6dmrdq9gd8pk10';
         $password = '7YKlrIYOhYnivTZeSrOh';
 
-        $link = new PDO("mysql:host=$localhost;dbname=$database", $user, $password);
+        $linkk = new PDO("mysql:host=$localhost;dbname=$database", $user, $password);
         
-        return $link;
+        return $linkk;
     }
 }
 ?>
