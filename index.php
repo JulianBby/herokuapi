@@ -22,7 +22,7 @@ unset($_SESSION['usuario']);
         
         <form class="form-login" action="basededatos/controller_login.php" method="post">
             <div>
-                <input class="controls" type="email" name="correo" placeholder="correoooooooo">
+                <input class="controls" type="email" name="correo" placeholder="correo">
             </div>
             <div>
                 <input class="controls" type="password" name="pas" placeholder="Contraseña">

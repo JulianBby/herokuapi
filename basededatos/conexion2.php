@@ -1,6 +1,8 @@
 <?php 
-class DBa{
-    public function getConnection(){
+class DB{
+    private function __construct(){}
+
+    public static function conectar(){
         $localhost = 'bhssuxxpgwp075yoblua-mysql.services.clever-cloud.com';
         $database = 'bhssuxxpgwp075yoblua';
         $user = 'un6dmrdq9gd8pk10';
