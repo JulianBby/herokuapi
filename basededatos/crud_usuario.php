@@ -8,6 +8,7 @@ class crudUsuario{
 
     //insertar los datos del usuario
     public function insertar($usuario){
+        $db=DB::conectar();
         $insert=$db->prepare('INSERT INTO USUARIOS VALUES(NULL, :nombre, :numeroDoc, :correo, :clave)');
         $insert->bindValue('nombre', $usuario->getNombre());
         $insert->bindValue('numeroDoc', $usuario->getNum());
