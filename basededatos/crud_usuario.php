@@ -1,5 +1,5 @@
 <?php
-require_once('conexion3.php');
+require_once('conexion.php');
 require_once('usuario.php');
 
 class crudUsuario{
@@ -8,14 +8,13 @@ class crudUsuario{
 
     //insertar los datos del usuario
     public function insertar($usuario){
-        $db=DB::conectar();
         $insert=$db->prepare('INSERT INTO USUARIOS VALUES(NULL, :nombre, :numeroDoc, :correo, :clave)');
-        $insert->bind_param('nombre', $usuario->getNombre());
-        $insert->bind_param('numeroDoc', $usuario->getNum());
-        $insert->bind_param('correo', $usuario->getCorreo());
+        $insert->bindValue('nombre', $usuario->getNombre());
+        $insert->bindValue('numeroDoc', $usuario->getNum());
+        $insert->bindValue('correo', $usuario->getCorreo());
         //encripta contraseña
         $pass=password_hash($usuario->getClave(), PASSWORD_DEFAULT);
-        $insert->bind_param('clave', $pass);
+        $insert->bindValue('clave', $pass);
         $insert->execute();
     }
 
@@ -24,7 +23,7 @@ class crudUsuario{
         $db=DB::conectar();
         //$select=$db->prepare("SELECT * FROM USUARIOS WHERE nombre='$nombre'");//AND clave=:clave //primero es el campo de la tabla, el segundo es el del formulario ":" valide que sea el mismo
         $select=$db->prepare('SELECT * FROM USUARIOS WHERE correo=:correo');
-        $select->bind_param('correo', $correo);
+        $select->bindValue('correo', $correo);
         $select->execute();
         $registro = $select->fetch();
         $usuario = new Usuario();
@@ -45,7 +44,7 @@ class crudUsuario{
         $db=DB::conectar();
         //$select=$db->prepare('SELECT * FROM USUARIOS WHERE nombre=:nombre');
         $select=$db->prepare('SELECT * FROM USUARIOS WHERE numeroDoc=:numeroDoc');
-        $select->bind_param('numeroDoc', $numeroDoc);
+        $select->bindValue('numeroDoc', $numeroDoc);
         $select->execute();
         $registro=$select->fetch();
         if($registro['id']!=NULL){
