@@ -1,20 +1,15 @@
 <?php
-class DBAAA{
-    private function __construct(){}
-
-    public static function conectar(){
-        $dsn = 'mysql:dbname=bkc3739td52nqn13e3iu; host=bkc3739td52nqn13e3iu-mysql.services.clever-cloud.com';
-        $usuario = 'u85yrqverx1h8saf';
-        $password = 'M30qXRJgkOtmmkmOjwvS';
-
-        try {
-            $gbd = new PDO($dsn, $usuario, $password);
-        } catch(PDOException $e){
-            echo 'Fallo la conexión: ' .$e->getMessage();
-        }      
-
-    return $gbd;
-
+$servername = "bkc3739td52nqn13e3iu-mysql.services.clever-cloud.com";
+$database = "bkc3739td52nqn13e3iu";
+$username = "u85yrqverx1h8saf";
+$password = "M30qXRJgkOtmmkmOjwvS";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $database);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
 }
-}
+echo "Connected successfully";
+mysqli_close($conn);
+
 ?>
