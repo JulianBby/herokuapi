@@ -9,7 +9,8 @@ class DB{
         $username = 'u85yrqverx1h8saf';
         $password = 'M30qXRJgkOtmmkmOjwvS';
         
-        $conexion = new PDO('mysql:host=$localhost; dbname=$database', $username, $password);
+        $conexion = new PDO('mysql:host=$localhost; dbname=$database', $username, $password, array(
+            PDO::ATTR_PERSISTENT => true));
         return $conexion; 
     }
 }
