@@ -1,5 +1,5 @@
 <?php 
-class DBbbb{
+class DBbbbb{
     private static $conexion=NULL;
     private function __construct(){}
 

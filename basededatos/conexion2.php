@@ -1,5 +1,5 @@
 <?php 
-class DB{
+class DBaaaaaa{
     private function __construct(){}
 
     public static function conectar(){
