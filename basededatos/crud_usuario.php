@@ -1,5 +1,5 @@
 <?php
-require_once('conexion3.php');
+require_once('conexion.php');
 require_once('usuario.php');
 
 class crudUsuario{
