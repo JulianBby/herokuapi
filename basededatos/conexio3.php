@@ -1,15 +1,20 @@
 <?php
+class DB{
+    private function __construct(){}
 
-$hostname = "bkc3739td52nqn13e3iu-mysql.services.clever-cloud.com";
-$username = "u85yrqverx1h8saf";
-$password = "M30qXRJgkOtmmkmOjwvS";
-$dbname = "bkc3739td52nqn13e3iu";
+    public static function conectar(){
+    $dsn = 'mysql:dbname=bkc3739td52nqn13e3iu; host=bkc3739td52nqn13e3iu-mysql.services.clever-cloud.com';
+    $usuario = 'u85yrqverx1h8saf';
+    $password = 'u85yrqverx1h8saf';
 
-$db = new mysqli($hostname, $username, $password, $dbname, 3306);
+    try {
+        $gbd = new PDO($dsn, $usuario, $password);
+    } catch(PDOException $e){
+        echo 'Fallo la conexión: ' .$e->getMessage();
+    }      
 
+    return $gbd;
 
-if ($db->connect_errno){
-    echo "Fallo la conexión a la base de datos";
 }
-
+}
 ?>
