@@ -20,7 +20,7 @@ unset($_SESSION['usuario']);
             <img src="imagenes/logo.png" height="330" weigth="330" alt="centrar img con flexbox" />
         </div>
         
-        <form class="form-login" action="basededatos/controller_login.php" method="post">
+        <form class="form-login" action="../basededatos/controller_login.php" method="post">
             <div>
                 <input class="controls" type="email" name="correo" placeholder="correo">
             </div>
