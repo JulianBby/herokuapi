@@ -15,5 +15,5 @@
 
 <script type="text/javascript">
     alert("Datos actualizados exitosamente!!");
-    window.location.href="../Entradas.php";
+    window.location.href="../entradas.php";
 </script>

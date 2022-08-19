@@ -11,5 +11,5 @@
 
 <script type="text/javascript">
     alert("Servicio Entregado Exitosamente!!");
-    window.location.href='../Entradas.php';
+    window.location.href='../entradas.php';
 </script>

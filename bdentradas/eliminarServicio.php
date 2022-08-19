@@ -10,5 +10,5 @@
 
 <script type="text/javascript">
     alert("Servicio Eliminado!");
-    window.location.href='../Entradas.php';
+    window.location.href='../entradas.php';
 </script>
