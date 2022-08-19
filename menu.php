@@ -49,7 +49,7 @@
             <a onclick="document.getElementById('myform').submit();">
                 <div class="option">
                     <i class="fa-solid fa-arrow-right-from-bracket" title="Salir"></i>
-                    <form id="myform" action="BaseDeDatos/controller_login.php" method="post">
+                    <form id="myform" action="basededatos/controller_login.php" method="post">
                         <input type="hidden" name="salir">
                     </form>
                     <h4>Salir</h4>
