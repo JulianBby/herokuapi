@@ -9,7 +9,7 @@ class DB{
         $username = 'u85yrqverx1h8saf';
         $password = 'M30qXRJgkOtmmkmOjwvS';
         
-        $conexion = new PDO('mysql:host=' + $localhost+'; dbname='+$database, $username, $password);
+        $conexion = new PDO('mysql:host=bkc3739td52nqn13e3iu-mysql.services.clever-cloud.com;dbname=bkc3739td52nqn13e3iu', $username, $password);
         return $conexion; 
     }
 }
