@@ -4,6 +4,6 @@
 if(mysqli_connect_errno()){
     printf("Fallo la conexión");
 }else{
-    printf("Estas conectado");
+    //printf("Estas conectado");
 }
 ?>
