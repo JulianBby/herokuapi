@@ -21,7 +21,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Modificar Servicio</title>
+        <title>Editar Servicio</title>
         <link rel="stylesheet" href="../styles/formularioNuevoServicio.css">
     </head>
     <body>
@@ -29,7 +29,7 @@
 
             <div id="contenido">
                 <div style="margin: auto; width: 800px; border-collapse: separate; border-spacing: 1px 5px;">
-                    <span><h1>Modificar Servicio</h1></span>
+                    <span><h1>Editar Servicio</h1></span>
                     <br>
                     <form action="modificarServicio2.php" method="POST" style="border-collapse: separate; border-spacing: 1px 5px;">
                         <input type="hidden" name="idEntrada" value="<?php echo $_GET['idEntrada']?>">
@@ -45,7 +45,7 @@
                         <label for="">Servicio: </label><br>
                         <input type="text" id="servicio" name="servicio" value="<?php echo $consulta[3] ?>"><br><br>
 
-                        <label for="">Precio: </label<br>
+                        <label for="">Precio: </label><br>
                         <input type="number" name="precio" id="precio" value="<?php echo $consulta[4] ?>"><br><br>
 
                         <label for="">Detalles: </label><br>
