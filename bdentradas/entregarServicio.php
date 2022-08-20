@@ -37,7 +37,7 @@
                         <input type="number" readonly="readonly" name="precio" id="precio" value="<?php echo $consulta[0] ?>"><br>
 
                         <label for="">Fecha de Entrada</label><br>
-                        <input type="date" readonly="readonly" name="fechaEntrada" id="fechaEntrada" value="<?php echo $consulta[1] ?>">
+                        <input type="date" readonly="readonly" name="fechaEntrada" id="fechaEntrada" value="<?php echo $consulta[1] ?>"> <br>
                         
                         <label for="">Fecha de Entrega</label><br>
                         <input type="date" name="fechaEntrega" id="fechaEntrega"><br><br>
