@@ -26,9 +26,6 @@
     </head>
     <body>
         <div class="todo">
-            <div id="cabecera">
-                <img src="imagenes/" width="1188" id="img1">
-            </div>
 
             <div id="contenido">
                 <div style="margin: auto; width: 800px; border-collapse: separate; border-spacing: 1px 5px;">
@@ -48,7 +45,7 @@
                         <label for="">Servicio: </label><br>
                         <input type="text" id="servicio" name="servicio" value="<?php echo $consulta[3] ?>"><br><br>
 
-                        <label for="">Precio: </label<br>>
+                        <label for="">Precio: </label<br>
                         <input type="number" name="precio" id="precio" value="<?php echo $consulta[4] ?>"><br><br>
 
                         <label for="">Detalles: </label><br>
