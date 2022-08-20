@@ -1,11 +1,13 @@
 <?php
     include "conexion.php";
+    include "../menu.php";
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
         <title>Agregar Servicio</title>
+        <link rel="stylesheet" href=".css">
     </head>
     <body>
         <div class="todo">
