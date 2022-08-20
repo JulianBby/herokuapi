@@ -42,7 +42,7 @@
                     <input type="date" name="fechaEntrada" id="fechaEntrada">
                     <br>
                     <br>
-                    <button type="submit" class="btn btn-success">Guardar</button>
+                    <button type="submit" class="btn-guardar">Guardar</button>
                 </form>
                 </div>
             </div>
