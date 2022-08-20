@@ -19,6 +19,7 @@
 <html>
     <head>
         <title>Entregar Servicio</title>
+        <link rel="stylesheet" href="../styles/formularioEntrega.css">
     </head>
     <body>
         <div class="todo">

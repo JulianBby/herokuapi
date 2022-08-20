@@ -1,0 +1,13 @@
+.todo{
+    position: absolute;
+    width: 1150px;
+    left: 45%;
+    top: 13%;
+    border-collapse: collapse;
+    text-align: left;
+    border: solid 2px black;
+    width: 450px;
+    padding-left: 2rem;
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+}
