@@ -21,6 +21,8 @@
 #detalles{
     border-radius: 7px;
     width: 300px;
+    max-width: 300px;
+    max-height: 100px;
 }
 
 #fechaEntrada{
@@ -38,4 +40,3 @@ h1{
     padding: 15px 32px;
     cursor: pointer;
     border-radius: 7px;
-}
