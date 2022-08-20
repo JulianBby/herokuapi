@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="../styles/menu.css">
     <script src="https://kit.fontawesome.com/691d48a54d.js" crossorigin="anonymous"></script>
 </head>
 <body class="menu">
@@ -49,7 +49,7 @@
             <a onclick="document.getElementById('myform').submit();">
                 <div class="option">
                     <i class="fa-solid fa-arrow-right-from-bracket" title="Salir"></i>
-                    <form id="myform" action="basededatos/controller_login.php" method="post">
+                    <form id="myform" action="../basededatos/controller_login.php" method="post">
                         <input type="hidden" name="salir">
                     </form>
                     <h4>Salir</h4>
