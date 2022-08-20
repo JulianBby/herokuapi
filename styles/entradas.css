@@ -17,8 +17,8 @@ td{
     ;
 }
 thead{
-    background-color: red;
-    border-bottom: solid 5px green;
+    background-color: #4c5b61;
+    border-bottom: solid 5px black;
     color: white;
 }
 
@@ -29,7 +29,7 @@ thead{
 }
 
 .btn-nuevo, .btn-modificar, .btn-eliminar, .btn-entregar{
-    background-color: blue;
+    background-color: #829191;
     border: none;
     color: #ffffffb2;
     padding: 15px 32px;
