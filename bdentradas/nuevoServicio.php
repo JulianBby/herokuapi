@@ -7,7 +7,6 @@
 <html>
     <head>
         <title>Agregar Servicio</title>
-        <link rel="stylesheet" href=".css">
     </head>
     <body>
         <div class="todo">

@@ -18,28 +18,28 @@
 
         <div class="options__menu">
         
-            <a href="entradas.php">
+            <a href="../entradas.php">
                 <div class="option">
                     <i class="fa-solid fa-shirt" title="Entradas"></i>
                     <h4>Entradas</h4>
                 </div>
             </a>
 
-            <a href="salidas.php">
+            <a href="../salidas.php">
                 <div class="option">
                     <i class="fa-solid fa-hand-holding-dollar" title="Salidas"></i>
                     <h4>Salidas</h4>
                 </div>
             </a>
 
-            <a href="inventario.php">
+            <a href="../inventario.php">
                 <div class="option">
                     <i class="fa-solid fa-boxes-stacked" title="Inventario"></i>
                     <h4>Inventario</h4>
                 </div>
             </a>
 
-            <a href="empleados.php">
+            <a href="/..empleados.php">
                 <div class="option">
                     <i class="fa-solid fa-address-book" title="Empleados"></i>
                     <h4>Empleados</h4>
