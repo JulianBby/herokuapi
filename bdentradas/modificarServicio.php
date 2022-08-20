@@ -17,6 +17,7 @@
             $fila['fechaEntrada'],
         ];
     }
+    include "../menu.php";
 ?>
 <!DOCTYPE html>
 <html>
