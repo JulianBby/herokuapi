@@ -22,8 +22,8 @@
             <th>Detalles</th>
             <th>Fecha de Entrada</th>
             <th></th>
-            <th></th>
             <th><a href="bdentradas/nuevoServicio.php"><Button class="btn-nuevo">Nuevo</Button></a></th>
+            <th></th>
             <th></th>
         </thead>
         <tbody>
