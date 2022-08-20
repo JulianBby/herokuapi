@@ -21,7 +21,7 @@
             <th>Precio</th>
             <th>Detalles</th>
             <th>Fecha de Entrada</th>
-            <th><a href="bdentradas/nuevoServicio.php"><Button class="btn-nuevo">Nuevo</Button></a></th>
+            <th><center><a href="bdentradas/nuevoServicio.php"><Button class="btn-nuevo">Nuevo</Button></a></center></th>
             <th></th>
             <th></th>
             <th></th>
