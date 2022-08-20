@@ -55,14 +55,12 @@
                         <input type="date" name="fechaEntrada" id="fechaEntrada" value="<?php echo $consulta[6] ?>">
                         <br>
                         <br>
-                        <button type="submit" class="btn btn-success">Actualizar</button>
+                        <button type="submit" class="btn-guardar">Actualizar</button>
                     </form>
                 </div>
             </div>
 
-            <div id="footer">
-                <img src="imagenes/" id="img2">
-            </div>
+        
         </div>
     </body>
 </html>
