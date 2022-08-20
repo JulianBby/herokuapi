@@ -39,7 +39,7 @@
                 </div>
             </a>
 
-            <a href="/..empleados.php">
+            <a href="../empleados.php">
                 <div class="option">
                     <i class="fa-solid fa-address-book" title="Empleados"></i>
                     <h4>Empleados</h4>

@@ -22,6 +22,7 @@
 <html>
     <head>
         <title>Modificar Servicio</title>
+        <link rel="stylesheet" href="formularioNuevoServicio.css">
     </head>
     <body>
         <div class="todo">
