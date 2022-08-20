@@ -12,6 +12,7 @@
             $fila['fechaEntrada'],
         ];
     }
+    include "../menu.php";
 ?>
 
 <!DOCTYPE html>
@@ -21,12 +22,11 @@
     </head>
     <body>
         <div class="todo">
-            <div id="cabecera">
 
-            </div>
+
 
             <div id="contenido">
-                <div style="margin: auto; width: 800px; border-collapse: separate; border-spacing: 1px 5px;">
+                
                     <span><h1>Entregar Servicio</h1></span>
                     <br>
                     <form action="entregarServicio2.php" method="POST" style="border-collapse: separate; border-spacing: 1px 5px;">
@@ -47,12 +47,10 @@
                         <br>
                         <button type="submit" class="btn btn-success">Entregar</button>
                     </form>
-                </div>
+                
             </div>
 
-            <div id="footer">
-                <img src="imagenes/" id="img2">
-            </div>
+
         </div>
     </body>
 </html>
