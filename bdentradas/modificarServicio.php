@@ -22,7 +22,7 @@
 <html>
     <head>
         <title>Modificar Servicio</title>
-        <link rel="stylesheet" href="formularioNuevoServicio.css">
+        <link rel="stylesheet" href="../styles/formularioNuevoServicio.css">
     </head>
     <body>
         <div class="todo">
@@ -36,23 +36,23 @@
                     <br>
                     <form action="modificarServicio2.php" method="POST" style="border-collapse: separate; border-spacing: 1px 5px;">
                         <input type="hidden" name="idEntrada" value="<?php echo $_GET['idEntrada']?>">
-                        <label for="">Nombre del Cliente: </label>
-                        <input type="text" name="nombreCliente" id="nombreCliente" value="<?php echo $consulta[0] ?>"><br>
+                        <label for="">Nombre del Cliente: </label><br>
+                        <input type="text" name="nombreCliente" id="nombreCliente" value="<?php echo $consulta[0] ?>"><br><br>
 
-                        <label for="">Documento del Cliente: </label>
-                        <input type="number" id="documentoCliente" name="documentoCliente" value="<?php echo $consulta[1] ?>"><br>
+                        <label for="">Documento del Cliente: </label><br>
+                        <input type="number" id="documentoCliente" name="documentoCliente" value="<?php echo $consulta[1] ?>"><br><br>
 
-                        <label for="">Tipo de Prenda: </label>
-                        <input type="text" id="tipoPrenda" name="tipoPrenda" value="<?php echo $consulta[2] ?>"><br>
+                        <label for="">Tipo de Prenda: </label><br>
+                        <input type="text" id="tipoPrenda" name="tipoPrenda" value="<?php echo $consulta[2] ?>"><br><br>
 
-                        <label for="">Servicio: </label>
-                        <input type="text" id="servicio" name="servicio" value="<?php echo $consulta[3] ?>"><br>
+                        <label for="">Servicio: </label><br>
+                        <input type="text" id="servicio" name="servicio" value="<?php echo $consulta[3] ?>"><br><br>
 
-                        <label for="">Precio: </label>
-                        <input type="number" name="precio" id="precio" value="<?php echo $consulta[4] ?>"><br>
+                        <label for="">Precio: </label<br>>
+                        <input type="number" name="precio" id="precio" value="<?php echo $consulta[4] ?>"><br><br>
 
                         <label for="">Detalles: </label><br>
-                        <textarea name="detalles" id="detalles" cols="30" rows="10" ><?php echo $consulta[5] ?></textarea><br>
+                        <textarea name="detalles" id="detalles" cols="30" rows="10" ><?php echo $consulta[5] ?></textarea><br><br>
 
                         <label for="">Fecha de Entrada</label>
                         <input type="date" name="fechaEntrada" id="fechaEntrada" value="<?php echo $consulta[6] ?>">
