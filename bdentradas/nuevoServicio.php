@@ -7,6 +7,7 @@
 <html>
     <head>
         <title>Agregar Servicio</title>
+        <link rel="stylesheet" href="../styles/formularioNuevoServicio.css">
     </head>
     <body>
         <div class="todo">

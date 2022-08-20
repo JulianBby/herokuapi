@@ -1,0 +1,8 @@
+.contenido{
+    position: absolute;
+    width: 1150px;
+    left: 20%;
+    top: 25%;
+    border-collapse: collapse;
+    text-align: center;
+}
