@@ -32,7 +32,7 @@
                 </div>
             </a>
 
-            <a href="Inventario.php">
+            <a href="inventario.php">
                 <div class="option">
                     <i class="fa-solid fa-boxes-stacked" title="Inventario"></i>
                     <h4>Inventario</h4>
