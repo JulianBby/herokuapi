@@ -34,10 +34,10 @@
                         <input type="hidden" name="idEntrada" value="<?php echo $_GET['idEntrada']?>">
 
                         <label for="">Precio: </label><br>
-                        <input type="number" readonly="readonly" name="precio" id="precio" value="<?php echo $consulta[0] ?>"><br>
+                        <input type="number" readonly="readonly" name="precio" id="precio" value="<?php echo $consulta[0] ?>"><br><br>
 
                         <label for="">Fecha de Entrada</label><br>
-                        <input type="date" readonly="readonly" name="fechaEntrada" id="fechaEntrada" value="<?php echo $consulta[1] ?>"> <br>
+                        <input type="date" readonly="readonly" name="fechaEntrada" id="fechaEntrada" value="<?php echo $consulta[1] ?>"> <br><br>
                         
                         <label for="">Fecha de Entrega</label><br>
                         <input type="date" name="fechaEntrega" id="fechaEntrega"><br><br>
