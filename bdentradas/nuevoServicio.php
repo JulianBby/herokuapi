@@ -20,19 +20,19 @@
                 <span><h1>Nuevo Servicio</h1></span>
                 <br>
                 <form action="nuevoServicio2.php" method="POST" style="border-collapse: separate; border-spacing: 10px 5px;">
-                    <label for="">Nombre del Cliente: </label>
+                    <label for="">Nombre del Cliente: </label><br>
                     <input type="text" name="nombreCliente" id="nombreCliente"><br><br><br>
 
-                    <label for="">Documento del Cliente: </label>
+                    <label for="">Documento del Cliente: </label><br>
                     <input type="number" id="documentoCliente" name="documentoCliente"><br><br><br>
 
-                    <label for="">Tipo de Prenda: </label>
+                    <label for="">Tipo de Prenda: </label><br>
                     <input type="text" id="tipoPrenda" name="tipoPrenda"><br><br><br>
 
-                    <label for="">Servicio: </label>
+                    <label for="">Servicio: </label><br>
                     <input type="text" id="servicio" name="servicio"><br><br><br>
 
-                    <label for="">Precio: </label>
+                    <label for="">Precio: </label><br>
                     <input type="number" name="precio" id="precio"><br><br><br>
 
                     <label for="">Detalles: </label><br>
