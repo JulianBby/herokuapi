@@ -46,7 +46,7 @@
                         <textarea name="observaciones" id="observaciones" cols="30" rows="10"></textarea>
                         <br>
                         <br>
-                        <button type="submit" class="btn btn-success">Entregar</button>
+                        <button type="submit" class="btn-guardar">Entregar</button>
                     </form>
                 
             </div>
