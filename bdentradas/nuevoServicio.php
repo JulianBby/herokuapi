@@ -21,24 +21,24 @@
                 <br>
                 <form action="nuevoServicio2.php" method="POST" style="border-collapse: separate; border-spacing: 10px 5px;">
                     <label for="">Nombre del Cliente: </label>
-                    <input type="text" name="nombreCliente" id="nombreCliente"><br>
+                    <input type="text" name="nombreCliente" id="nombreCliente"><br><br><br>
 
                     <label for="">Documento del Cliente: </label>
-                    <input type="number" id="documentoCliente" name="documentoCliente"><br>
+                    <input type="number" id="documentoCliente" name="documentoCliente"><br><br><br>
 
                     <label for="">Tipo de Prenda: </label>
-                    <input type="text" id="tipoPrenda" name="tipoPrenda"><br>
+                    <input type="text" id="tipoPrenda" name="tipoPrenda"><br><br><br>
 
                     <label for="">Servicio: </label>
-                    <input type="text" id="servicio" name="servicio"><br>
+                    <input type="text" id="servicio" name="servicio"><br><br><br>
 
                     <label for="">Precio: </label>
-                    <input type="number" name="precio" id="precio"><br>
+                    <input type="number" name="precio" id="precio"><br><br><br>
 
                     <label for="">Detalles: </label><br>
-                    <textarea name="detalles" id="detalles" cols="30" rows="10"></textarea><br>
+                    <textarea name="detalles" id="detalles" cols="30" rows="10"></textarea><br><br><br>
 
-                    <label for="">Fecha de Entrada</label>
+                    <label for="">Fecha de Entrada</label>  
                     <input type="date" name="fechaEntrada" id="fechaEntrada">
                     <br>
                     <br>
