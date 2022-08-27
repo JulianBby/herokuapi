@@ -27,6 +27,7 @@ unset($_SESSION['usuario']);
             <div>
                 <input class="controls" type="password" name="pas" placeholder="Contraseña" required>
             </div>
+            <br>
             <div>
                 <a href="registro.php">Registrarse</a>
             </div>

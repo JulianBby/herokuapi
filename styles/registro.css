@@ -26,6 +26,11 @@
     font-size: 18px;
 }
 
+#div-btn{
+    flex: auto;
+    flex-direction: row;
+}
+
 .fcc-btn{
     border-radius: 5px;
     background-color: #829191;
@@ -34,4 +39,11 @@
     box-shadow: 0 0 5px;
 }
 
+.btn-regresar{
+    background-color: #829191;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;    
+}
 
