@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    text-decoration: none;
+    font-family: Helvetica;
 }
 .div-img {
     margin-top: 15px;
@@ -68,7 +70,7 @@ body {
     border-bottom: 1px solid;
   }
  footer{
-      background-color: #ffffff;
+    background-color: #ffffff;
     padding: 15px;
     bottom: 0.5%;
     margin-top: 10px;
