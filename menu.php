@@ -31,7 +31,7 @@
                     <h4>Salidas</h4>
                 </div>
             </a>
-
+            <!--
             <a href="../inventario.php">
                 <div class="option">
                     <i class="fa-solid fa-boxes-stacked" title="Inventario"></i>
@@ -45,7 +45,7 @@
                     <h4>Empleados</h4>
                 </div>
             </a>
-            
+        -->    
             <a onclick="document.getElementById('myform').submit();">
                 <div class="option">
                     <i class="fa-solid fa-arrow-right-from-bracket" title="Salir"></i>
